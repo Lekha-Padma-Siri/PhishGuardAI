@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #172033;
+}
+
+.container {
+    width: 90%;
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.badge {
+    display: inline-block;
+    background: #e8edff;
+    color: #3658c8;
+    padding: 7px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 42px;
+    margin: 12px 0 5px;
+}
+
+.header p {
+    color: #667085;
+    font-size: 17px;
+}
+
+.card,
+.result,
+.warning {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #e1e5ec;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 190px;
+    padding: 15px;
+    border: 1px solid #ccd3df;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    resize: vertical;
+    outline: none;
+}
+
+textarea:focus {
+    border-color: #3658c8;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-right: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#analyzeBtn {
+    background: #3658c8;
+    color: white;
+}
+
+.sample {
+    background: #e8edff;
+    color: #263b8e;
+}
+
+.clear {
+    background: #eeeeee;
+    color: #333333;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.hidden {
+    display: none;
+}
+
+.risk-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.score {
+    color: #667085;
+    margin-bottom: 20px;
+}
+
+.signal {
+    background: #f6f7f9;
+    border-radius: 8px;
+    padding: 12px;
+    margin: 8px 0;
+}
+
+.signal strong {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.next-step {
+    background: #eef4ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.warning {
+    font-size: 13px;
+    color: #667085;
+}
+
+.warning strong {
+    color: #333333;
+}
+
+.warning p {
+    margin-bottom: 0;
+}

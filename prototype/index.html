@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhishGuard - Phishing Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="badge">CYBERSECURITY</div>
+            <h1>🛡️ PhishGuard</h1>
+            <p>Check a suspicious message for common phishing signals.</p>
+        </div>
+
+        <div class="card">
+
+            <label for="message">Paste a suspicious message</label>
+
+            <textarea
+                id="message"
+                placeholder="Example: URGENT! Your bank account will be blocked today. Click this link to verify your account..."
+            ></textarea>
+
+            <div class="buttons">
+                <button id="analyzeBtn">Analyze Message</button>
+                <button id="sampleBtn" class="sample">Try Sample</button>
+                <button id="clearBtn" class="clear">Clear</button>
+            </div>
+
+        </div>
+
+        <div id="result" class="result hidden"></div>
+
+        <div class="warning">
+            <strong>⚠️ Safety Notice</strong>
+            <p>
+                Do not enter passwords, OTPs, card numbers, API keys,
+                or other sensitive information.
+            </p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
